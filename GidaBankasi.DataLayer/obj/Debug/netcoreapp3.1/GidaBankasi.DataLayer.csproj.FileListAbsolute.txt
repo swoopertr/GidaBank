@@ -1,0 +1,12 @@
+/media/swooper/Yeni Birim/Development/dotnet core/GidaBankasi/GidaBankasi.DataLayer/bin/Debug/netcoreapp3.1/GidaBankasi.DataLayer.deps.json
+/media/swooper/Yeni Birim/Development/dotnet core/GidaBankasi/GidaBankasi.DataLayer/bin/Debug/netcoreapp3.1/GidaBankasi.DataLayer.dll
+/media/swooper/Yeni Birim/Development/dotnet core/GidaBankasi/GidaBankasi.DataLayer/bin/Debug/netcoreapp3.1/GidaBankasi.DataLayer.pdb
+/media/swooper/Yeni Birim/Development/dotnet core/GidaBankasi/GidaBankasi.DataLayer/bin/Debug/netcoreapp3.1/Repository.dll
+/media/swooper/Yeni Birim/Development/dotnet core/GidaBankasi/GidaBankasi.DataLayer/bin/Debug/netcoreapp3.1/Repository.pdb
+/media/swooper/Yeni Birim/Development/dotnet core/GidaBankasi/GidaBankasi.DataLayer/obj/Debug/netcoreapp3.1/GidaBankasi.DataLayer.csprojAssemblyReference.cache
+/media/swooper/Yeni Birim/Development/dotnet core/GidaBankasi/GidaBankasi.DataLayer/obj/Debug/netcoreapp3.1/GidaBankasi.DataLayer.AssemblyInfoInputs.cache
+/media/swooper/Yeni Birim/Development/dotnet core/GidaBankasi/GidaBankasi.DataLayer/obj/Debug/netcoreapp3.1/GidaBankasi.DataLayer.AssemblyInfo.cs
+/media/swooper/Yeni Birim/Development/dotnet core/GidaBankasi/GidaBankasi.DataLayer/obj/Debug/netcoreapp3.1/GidaBankasi.DataLayer.csproj.CoreCompileInputs.cache
+/media/swooper/Yeni Birim/Development/dotnet core/GidaBankasi/GidaBankasi.DataLayer/obj/Debug/netcoreapp3.1/GidaBankasi.DataLayer.csproj.CopyComplete
+/media/swooper/Yeni Birim/Development/dotnet core/GidaBankasi/GidaBankasi.DataLayer/obj/Debug/netcoreapp3.1/GidaBankasi.DataLayer.dll
+/media/swooper/Yeni Birim/Development/dotnet core/GidaBankasi/GidaBankasi.DataLayer/obj/Debug/netcoreapp3.1/GidaBankasi.DataLayer.pdb

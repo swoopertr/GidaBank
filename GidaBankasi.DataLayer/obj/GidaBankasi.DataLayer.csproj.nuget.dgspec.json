@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/media/swooper/Yeni Birim/Development/dotnet core/GidaBank/GidaBankasi.DataLayer/GidaBankasi.DataLayer.csproj": {}
+  },
+  "projects": {
+    "/media/swooper/Yeni Birim/Development/dotnet core/Alchem/alchemlife/alchemlife/Repository/Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/swooper/Yeni Birim/Development/dotnet core/Alchem/alchemlife/alchemlife/Repository/Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "/media/swooper/Yeni Birim/Development/dotnet core/Alchem/alchemlife/alchemlife/Repository/Repository.csproj",
+        "packagesPath": "/home/swooper/.nuget/packages/",
+        "outputPath": "/media/swooper/Yeni Birim/Development/dotnet core/Alchem/alchemlife/alchemlife/Repository/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/swooper/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Dapper.FastCrud": {
+              "target": "Package",
+              "version": "[2.5.0.39, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.1.3.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/media/swooper/Yeni Birim/Development/dotnet core/GidaBank/GidaBankasi.DataLayer/GidaBankasi.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/swooper/Yeni Birim/Development/dotnet core/GidaBank/GidaBankasi.DataLayer/GidaBankasi.DataLayer.csproj",
+        "projectName": "GidaBankasi.DataLayer",
+        "projectPath": "/media/swooper/Yeni Birim/Development/dotnet core/GidaBank/GidaBankasi.DataLayer/GidaBankasi.DataLayer.csproj",
+        "packagesPath": "/home/swooper/.nuget/packages/",
+        "outputPath": "/media/swooper/Yeni Birim/Development/dotnet core/GidaBank/GidaBankasi.DataLayer/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/swooper/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/media/swooper/Yeni Birim/Development/dotnet core/Alchem/alchemlife/alchemlife/Repository/Repository.csproj": {
+                "projectPath": "/media/swooper/Yeni Birim/Development/dotnet core/Alchem/alchemlife/alchemlife/Repository/Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

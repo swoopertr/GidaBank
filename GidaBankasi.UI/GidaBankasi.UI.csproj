@@ -5,8 +5,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Alchem\alchemlife\alchemlife\WebCore\WebCore.csproj" />
       <ProjectReference Include="..\GidaBankasi.DataLayer\GidaBankasi.DataLayer.csproj" />
+      <ProjectReference Include="..\Repository\Repository.csproj" />
+      <ProjectReference Include="..\WebCore\WebCore.csproj" />
     </ItemGroup>
 
 </Project>

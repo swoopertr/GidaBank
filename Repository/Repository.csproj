@@ -5,8 +5,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Alchem\alchemlife\alchemlife\Repository\Repository.csproj" />
-      <ProjectReference Include="..\Repository\Repository.csproj" />
+      <PackageReference Include="Dapper.FastCrud" Version="2.5.0.39" />
+      <PackageReference Include="Microsoft.Data.SqlClient" Version="2.1.1" />
     </ItemGroup>
 
 </Project>

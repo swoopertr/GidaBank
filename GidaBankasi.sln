@@ -2,13 +2,13 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GidaBankasi.UI", "GidaBankasi.UI\GidaBankasi.UI.csproj", "{66D4CB94-0ED8-4C91-A460-9211B06CCA3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "..\Alchem\alchemlife\alchemlife\Repository\Repository.csproj", "{338B6910-DF94-4C45-ABEE-96C738ACC528}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCore", "..\Alchem\alchemlife\alchemlife\WebCore\WebCore.csproj", "{59E99C91-D337-49E9-85DE-0B89859E7033}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GidaBankasi.DataLayer", "GidaBankasi.DataLayer\GidaBankasi.DataLayer.csproj", "{99D5B429-C4A5-4018-868F-D87F121585E2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GidaBankasi.Bussines", "GidaBankasi.Bussines\GidaBankasi.Bussines.csproj", "{BA39F9C6-42B9-47B7-B0CC-6EE845BF82DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{08662974-F311-4215-8C09-87DE5ED3C39D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCore", "WebCore\WebCore.csproj", "{78739A7F-F902-42D2-990E-0798EA96618E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,14 +20,6 @@ Global
 		{66D4CB94-0ED8-4C91-A460-9211B06CCA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66D4CB94-0ED8-4C91-A460-9211B06CCA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66D4CB94-0ED8-4C91-A460-9211B06CCA3E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{338B6910-DF94-4C45-ABEE-96C738ACC528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{338B6910-DF94-4C45-ABEE-96C738ACC528}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{338B6910-DF94-4C45-ABEE-96C738ACC528}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{338B6910-DF94-4C45-ABEE-96C738ACC528}.Release|Any CPU.Build.0 = Release|Any CPU
-		{59E99C91-D337-49E9-85DE-0B89859E7033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{59E99C91-D337-49E9-85DE-0B89859E7033}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{59E99C91-D337-49E9-85DE-0B89859E7033}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{59E99C91-D337-49E9-85DE-0B89859E7033}.Release|Any CPU.Build.0 = Release|Any CPU
 		{99D5B429-C4A5-4018-868F-D87F121585E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{99D5B429-C4A5-4018-868F-D87F121585E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99D5B429-C4A5-4018-868F-D87F121585E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -36,5 +28,13 @@ Global
 		{BA39F9C6-42B9-47B7-B0CC-6EE845BF82DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA39F9C6-42B9-47B7-B0CC-6EE845BF82DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA39F9C6-42B9-47B7-B0CC-6EE845BF82DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08662974-F311-4215-8C09-87DE5ED3C39D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08662974-F311-4215-8C09-87DE5ED3C39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08662974-F311-4215-8C09-87DE5ED3C39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08662974-F311-4215-8C09-87DE5ED3C39D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78739A7F-F902-42D2-990E-0798EA96618E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78739A7F-F902-42D2-990E-0798EA96618E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78739A7F-F902-42D2-990E-0798EA96618E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78739A7F-F902-42D2-990E-0798EA96618E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

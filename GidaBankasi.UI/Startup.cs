@@ -1,8 +1,7 @@
+using System;
 using System.IO.Compression;
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
-using AlchemLife.Business.Configuration;
-using AlchemLife.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -10,6 +9,7 @@ using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Repository;
 
 namespace GidaBankasi.UI
 {
@@ -18,7 +18,7 @@ namespace GidaBankasi.UI
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            DbConfiguration.MsSqlConnectionString = configuration.GetSection("MsSql").Value;
+            DbConfiguration.mssql_Connstr = configuration.GetSection("MsSql").Value;
         }
 
         public IConfiguration Configuration { get; }
@@ -34,7 +34,10 @@ namespace GidaBankasi.UI
             {
                 options.Level = CompressionLevel.Fastest;
             });
-            services.AddSession();
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(10);               
+            });
             services.AddSingleton(HtmlEncoder.Create(allowedRanges: new[] { UnicodeRanges.BasicLatin, UnicodeRanges.Latin1Supplement, UnicodeRanges.LatinExtendedA }));
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddControllersWithViews();

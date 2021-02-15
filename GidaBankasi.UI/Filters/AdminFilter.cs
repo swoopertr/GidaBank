@@ -2,7 +2,7 @@ using System;
 using GidaBankasi.UI.Enums;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using WebCore.Extensions;
+using WebCore.Extension;
 
 namespace GidaBankasi.UI.Filters
 {

@@ -1,11 +1,9 @@
-
 using GidaBankasi.DataLayer.Managers;
 using Microsoft.AspNetCore.Mvc;
-using WebCore.Extensions;
+using WebCore.Extension;
 
 namespace GidaBankasi.UI.Controllers
 {
-    
     public class LoginController : Controller
     {
         [HttpGet]

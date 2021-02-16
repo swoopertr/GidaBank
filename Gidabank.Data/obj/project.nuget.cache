@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9tSWOLiTrivIrg/WIma0tAoazoazC0Ff7DHp9R/ZcwOqzf40XzSeMq1I1UsqXugGKIhNbUmjAuPKCFSK7xwk7w==",
+  "dgSpecHash": "FZXjXmT1+9PfK3BcsYY3UeS26dL7sm76XW1yP5C4hWqRaruuTDZTuEwolXuU1ovNjXnEeBWUXhHkBI2/9BvrqQ==",
   "success": true,
-  "projectFilePath": "/Users/ariftunckiral/Free/GidaBank/Repository/Repository.csproj",
+  "projectFilePath": "/Users/ariftunckiral/Free/GidaBank/Gidabank.Data/Gidabank.Data.csproj",
   "expectedPackageFiles": [
     "/Users/ariftunckiral/.nuget/packages/dapper/1.50.2/dapper.1.50.2.nupkg.sha512",
     "/Users/ariftunckiral/.nuget/packages/dapper.fastcrud/2.5.0.39/dapper.fastcrud.2.5.0.39.nupkg.sha512",

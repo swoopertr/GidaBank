@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "Dapper/1.50.2": {
         "type": "package",
         "dependencies": {
@@ -302,10 +302,10 @@
           "System.Runtime.CompilerServices.Unsafe": "4.6.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/Npgsql.dll": {}
+          "lib/net5.0/Npgsql.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Npgsql.dll": {}
+          "lib/net5.0/Npgsql.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -2045,6 +2045,21 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Dapper.FastCrud": "2.5.0.39",
+          "Microsoft.Data.SqlClient": "2.1.1",
+          "Npgsql": "5.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
         }
       }
     }
@@ -7067,13 +7082,16 @@
         "system.xml.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Dapper.FastCrud >= 2.5.0.39",
-      "Microsoft.Data.SqlClient >= 2.1.1",
-      "Npgsql >= 5.0.3"
+    "net5.0": [
+      "Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7083,11 +7101,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ariftunckiral/Free/GidaBank/Repository/Repository.csproj",
-      "projectName": "Repository",
-      "projectPath": "/Users/ariftunckiral/Free/GidaBank/Repository/Repository.csproj",
+      "projectUniqueName": "/Users/ariftunckiral/Free/GidaBank/Gidabank.Data/Gidabank.Data.csproj",
+      "projectName": "Gidabank.Data",
+      "projectPath": "/Users/ariftunckiral/Free/GidaBank/Gidabank.Data/Gidabank.Data.csproj",
       "packagesPath": "/Users/ariftunckiral/.nuget/packages/",
-      "outputPath": "/Users/ariftunckiral/Free/GidaBank/Repository/obj/",
+      "outputPath": "/Users/ariftunckiral/Free/GidaBank/Gidabank.Data/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/Users/ariftunckiral/.nuget/FallbackFolder"
@@ -7096,15 +7114,19 @@
         "/Users/ariftunckiral/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/Users/ariftunckiral/Free/GidaBank/Repository/Repository.csproj": {
+              "projectPath": "/Users/ariftunckiral/Free/GidaBank/Repository/Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -7114,22 +7136,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
-        "dependencies": {
-          "Dapper.FastCrud": {
-            "target": "Package",
-            "version": "[2.5.0.39, )"
-          },
-          "Microsoft.Data.SqlClient": {
-            "target": "Package",
-            "version": "[2.1.1, )"
-          },
-          "Npgsql": {
-            "target": "Package",
-            "version": "[5.0.3, )"
-          }
-        },
+      "net5.0": {
+        "targetAlias": "net5.0",
         "imports": [
           "net461",
           "net462",

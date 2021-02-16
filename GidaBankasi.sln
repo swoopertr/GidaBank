@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCore", "WebCore\WebCore.csproj", "{78739A7F-F902-42D2-990E-0798EA96618E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gidabank.UI", "Gidabank.UI\Gidabank.UI.csproj", "{982ED4EB-0F2A-40AA-9423-D30A3866B265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gidabank.Data", "Gidabank.Data\Gidabank.Data.csproj", "{B5E09AC5-B5D3-464F-BEE8-D0472DEC2B15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{78739A7F-F902-42D2-990E-0798EA96618E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78739A7F-F902-42D2-990E-0798EA96618E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78739A7F-F902-42D2-990E-0798EA96618E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{982ED4EB-0F2A-40AA-9423-D30A3866B265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982ED4EB-0F2A-40AA-9423-D30A3866B265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982ED4EB-0F2A-40AA-9423-D30A3866B265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982ED4EB-0F2A-40AA-9423-D30A3866B265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E09AC5-B5D3-464F-BEE8-D0472DEC2B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E09AC5-B5D3-464F-BEE8-D0472DEC2B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E09AC5-B5D3-464F-BEE8-D0472DEC2B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E09AC5-B5D3-464F-BEE8-D0472DEC2B15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
